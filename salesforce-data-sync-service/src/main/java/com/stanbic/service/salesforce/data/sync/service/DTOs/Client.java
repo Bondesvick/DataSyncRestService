@@ -1,0 +1,91 @@
+package com.stanbic.service.salesforce.data.sync.service.DTOs;
+
+import lombok.Getter;
+import lombok.NoArgsConstructor;
+import lombok.Setter;
+
+@Getter
+@Setter
+@NoArgsConstructor
+public class Client {
+
+    private String address2City;
+    private String address2Country;
+    private String address2HouseNumber;
+    private String address2State;
+    private String address2Street;
+    private String addressCity;
+    private String addressCountry;
+    private String addressHouseNumber;
+    private String addressStartDate;
+    private String addressState;
+    private String addressStreet;
+    private String addressType;
+    private String branchAddress;
+    private String branchCity;
+    private String branchName;
+    private String branchState;
+    private String businessType;
+    private String bvn;
+    private String cifType;
+    private String clientCif;
+    private String clientCreationDate;
+    private String clientName;
+    private String documentCode;
+    private String documentCodeDescription;
+    private String documentCountryOfIssue;
+    private String documentExpiryDate;
+    private String documentIssueDate;
+    private String documentIssuer;
+    private String documentPlaceOfIssue;
+    private String documentReferenceNumber;
+    private String documentTypeCode;
+    private String documentTypeDescription;
+    private String documentUniqueId;
+    private String ecosystemStatus;
+    private String email;
+//    private java.sql.Timestamp extractionDateTime;
+    private String facebookId;
+    private String firstName;
+    private String freeText1;
+    private String freeText10;
+    private String freeText2;
+    private String freeText3;
+    private String freeText4;
+    private String freeText5;
+    private String freeText6;
+    private String freeText7;
+    private String freeText8;
+    private String freeText9;
+    private String groupId;
+    private String id;
+    private String industry;
+    private String instagramId;
+    private String lastName;
+    private String middleName;
+    private String nextOfKin1;
+    private String nextOfKin2;
+    private String ownerSalesforceId;
+    private String pep;
+    private String phone;
+    private String preferredAddressType;
+    private String primaryCif;
+    private String primaryRelationshipManagerId;
+    private String primarySolId;
+//    private java.sql.Timestamp pushDateTime;
+//    private String pushResponseCode;
+//    private String pushResponseDescription;
+//    private String pushResponseStatus;
+    private String rcNumber;
+    private String recordType;
+    private String relationshipManagerEmail;
+    private String relationshipManagerSapId;
+    private String salesforceId;
+    private String segment;
+    private String subSegment;
+    private String taxIdentificationNumber;
+    private String tier;
+    private String transRegional;
+    private String twitterId;
+    private String uniqueId;
+}
